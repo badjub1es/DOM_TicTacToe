@@ -1,0 +1,46 @@
+/* Your code here */
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 400px);
+
+}
+
+.board1, .board2, .board4, .board5 {
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+} .board3, .board6 {
+    border-bottom: 10px solid black;
+} .board7, .board8 {
+    border-right: 10px solid black;
+}
+
+.board1 {
+    background-image: none;
+} .board2 {
+    background-image: none;
+} .board3 {
+    background-image: none;
+} .board4 {
+    background-image: none;
+} .board5 {
+    background-image: none;
+} .board6 {
+    background-image: none;
+} .board7 {
+    background-image: none;
+} .board8 {
+    background-image: none;
+} .board9 {
+    background-image: none;
+}
+
+#winner {
+    display: none;
+}
